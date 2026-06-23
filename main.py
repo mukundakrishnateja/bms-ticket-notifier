@@ -135,6 +135,7 @@ API_URL = (
 
 def fetch_bms(event_code, date_code, region_code, region_slug,
               lat, lon, geohash):
+
     headers = {
         "User-Agent": (
             "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
@@ -147,6 +148,7 @@ def fetch_bms(event_code, date_code, region_code, region_slug,
             f"https://in.bookmyshow.com/movies/"
             f"{region_slug}/buytickets/{event_code}/"
         ),
+        "Origin": "https://in.bookmyshow.com",
         "sec-ch-ua": '"Chromium";v="145", "Not:A-Brand";v="99"',
         "sec-ch-ua-mobile": "?0",
         "sec-ch-ua-platform": '"macOS"',
@@ -159,25 +161,50 @@ def fetch_bms(event_code, date_code, region_code, region_slug,
         "x-location-selection": "manual",
         "x-lsid": "",
     }
+
     params = {
         "eventCode": event_code,
         "dateCode": date_code or "",
         "isDesktop": "true",
         "regionCode": region_code,
         "xLocationShared": "false",
-        "memberId": "", "lsId": "", "subCode": "",
-        "lat": lat, "lon": lon,
+        "memberId": "",
+        "lsId": "",
+        "subCode": "",
+        "lat": lat,
+        "lon": lon,
     }
-    try:
-        resp = requests.get(API_URL, headers=headers,
-                            params=params, timeout=15)
-        if resp.status_code == 200:
-            return resp.json()
-        print(f"  HTTP {resp.status_code}")
-    except requests.RequestException as e:
-        print(f"  Request failed: {e}")
-    return None
 
+    try:
+        resp = requests.get(
+            API_URL,
+            headers=headers,
+            params=params,
+            timeout=15
+        )
+
+        print("\n==============================")
+        print("STATUS CODE:", resp.status_code)
+        print("==============================")
+
+        if resp.status_code == 200:
+            print("✅ Request successful")
+            return resp.json()
+
+        print("❌ Request failed")
+        print("\n----- RESPONSE HEADERS -----")
+        print(resp.headers)
+
+        print("\n----- RESPONSE BODY -----")
+        print(resp.text)
+
+        print("\n----- REQUEST URL -----")
+        print(resp.url)
+
+    except requests.RequestException as e:
+        print(f"❌ Request Exception: {e}")
+
+    return None
 
 # ──────────────────────────────────────────────────────────────────────
 # PARSERS
