@@ -64,30 +64,6 @@
       "price": "295.00",
       "status": "3"
     },
-    "PRHN|253567|20260720|EXECUTIVE": {
-      "venue": "Prasads Multiplex: Hyderabad",
-      "time": "08:00 AM",
-      "date": "20260720",
-      "cat": "EXECUTIVE",
-      "price": "295.00",
-      "status": "3"
-    },
-    "PRHN|251817|20260720|GOLD": {
-      "venue": "Prasads Multiplex: Hyderabad",
-      "time": "08:30 AM",
-      "date": "20260720",
-      "cat": "GOLD",
-      "price": "295.00",
-      "status": "1"
-    },
-    "PRHN|253725|20260720|EXECUTIVE": {
-      "venue": "Prasads Multiplex: Hyderabad",
-      "time": "10:00 AM",
-      "date": "20260720",
-      "cat": "EXECUTIVE",
-      "price": "295.00",
-      "status": "3"
-    },
     "PRHN|253741|20260720|EXECUTIVE": {
       "venue": "Prasads Multiplex: Hyderabad",
       "time": "11:25 AM",
