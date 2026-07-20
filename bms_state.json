@@ -1,21 +1,5 @@
 {
   "shows": {
-    "ALUC|3220|20260720|PLATINUM": {
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "12:00 PM",
-      "date": "20260720",
-      "cat": "PLATINUM",
-      "price": "350.00",
-      "status": "1"
-    },
-    "ALUC|3220|20260720|GOLD": {
-      "venue": "ALLU Cinemas: Kokapet",
-      "time": "12:00 PM",
-      "date": "20260720",
-      "cat": "GOLD",
-      "price": "295.00",
-      "status": "3"
-    },
     "ALUC|3221|20260720|PLATINUM": {
       "venue": "ALLU Cinemas: Kokapet",
       "time": "03:30 PM",
@@ -30,7 +14,7 @@
       "date": "20260720",
       "cat": "GOLD",
       "price": "295.00",
-      "status": "3"
+      "status": "2"
     },
     "ALUC|3222|20260720|PLATINUM": {
       "venue": "ALLU Cinemas: Kokapet",
@@ -64,29 +48,13 @@
       "price": "295.00",
       "status": "3"
     },
-    "PRHN|253741|20260720|EXECUTIVE": {
-      "venue": "Prasads Multiplex: Hyderabad",
-      "time": "11:25 AM",
-      "date": "20260720",
-      "cat": "EXECUTIVE",
-      "price": "295.00",
-      "status": "3"
-    },
-    "PRHN|251818|20260720|GOLD": {
-      "venue": "Prasads Multiplex: Hyderabad",
-      "time": "12:00 PM",
-      "date": "20260720",
-      "cat": "GOLD",
-      "price": "295.00",
-      "status": "1"
-    },
     "PRHN|253742|20260720|EXECUTIVE": {
       "venue": "Prasads Multiplex: Hyderabad",
       "time": "02:50 PM",
       "date": "20260720",
       "cat": "EXECUTIVE",
       "price": "295.00",
-      "status": "3"
+      "status": "2"
     },
     "PRHN|251819|20260720|GOLD": {
       "venue": "Prasads Multiplex: Hyderabad",
@@ -102,7 +70,7 @@
       "date": "20260720",
       "cat": "EXECUTIVE",
       "price": "295.00",
-      "status": "3"
+      "status": "2"
     },
     "PRHN|251820|20260720|GOLD": {
       "venue": "Prasads Multiplex: Hyderabad",
@@ -118,7 +86,7 @@
       "date": "20260720",
       "cat": "EXECUTIVE",
       "price": "295.00",
-      "status": "3"
+      "status": "2"
     },
     "PRHN|251821|20260720|GOLD": {
       "venue": "Prasads Multiplex: Hyderabad",
