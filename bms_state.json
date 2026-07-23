@@ -1,17 +1,80 @@
 {
   "shows": {
-    "PRHN|251836|20260723|GOLD": {
+    "ALUC|3304|20260724|PLATINUM": {
+      "venue": "ALLU Cinemas: Kokapet",
+      "time": "09:05 AM",
+      "date": "20260724",
+      "cat": "PLATINUM",
+      "price": "350.00",
+      "status": "2"
+    },
+    "ALUC|3304|20260724|GOLD": {
+      "venue": "ALLU Cinemas: Kokapet",
+      "time": "09:05 AM",
+      "date": "20260724",
+      "cat": "GOLD",
+      "price": "295.00",
+      "status": "3"
+    },
+    "ALUC|3321|20260724|PLATINUM": {
+      "venue": "ALLU Cinemas: Kokapet",
+      "time": "04:20 PM",
+      "date": "20260724",
+      "cat": "PLATINUM",
+      "price": "350.00",
+      "status": "0"
+    },
+    "ALUC|3321|20260724|GOLD": {
+      "venue": "ALLU Cinemas: Kokapet",
+      "time": "04:20 PM",
+      "date": "20260724",
+      "cat": "GOLD",
+      "price": "295.00",
+      "status": "3"
+    },
+    "PRHN|251837|20260724|GOLD": {
       "venue": "Prasads Multiplex: Hyderabad",
-      "time": "10:30 PM",
-      "date": "20260723",
+      "time": "08:45 AM",
+      "date": "20260724",
+      "cat": "GOLD",
+      "price": "295.00",
+      "status": "1"
+    },
+    "PRHN|251838|20260724|GOLD": {
+      "venue": "Prasads Multiplex: Hyderabad",
+      "time": "12:15 PM",
+      "date": "20260724",
+      "cat": "GOLD",
+      "price": "295.00",
+      "status": "1"
+    },
+    "PRHN|251839|20260724|GOLD": {
+      "venue": "Prasads Multiplex: Hyderabad",
+      "time": "03:45 PM",
+      "date": "20260724",
+      "cat": "GOLD",
+      "price": "295.00",
+      "status": "1"
+    },
+    "PRHN|251840|20260724|GOLD": {
+      "venue": "Prasads Multiplex: Hyderabad",
+      "time": "07:15 PM",
+      "date": "20260724",
+      "cat": "GOLD",
+      "price": "295.00",
+      "status": "1"
+    },
+    "PRHN|251841|20260724|GOLD": {
+      "venue": "Prasads Multiplex: Hyderabad",
+      "time": "10:45 PM",
+      "date": "20260724",
       "cat": "GOLD",
       "price": "295.00",
       "status": "1"
     }
   },
   "dates": {
-    "20260723": "BOOKABLE",
-    "20260724": "AVAILABLE",
+    "20260724": "BOOKABLE",
     "20260725": "AVAILABLE",
     "20260726": "AVAILABLE",
     "20260727": "AVAILABLE",
