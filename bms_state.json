@@ -6,19 +6,11 @@
       "date": "20260725",
       "cat": "PLATINUM",
       "price": "350.00",
-      "status": "0"
+      "status": "1"
     },
     "ALUC|3313|20260725|GOLD": {
       "venue": "ALLU Cinemas: Kokapet",
       "time": "04:20 PM",
-      "date": "20260725",
-      "cat": "GOLD",
-      "price": "295.00",
-      "status": "1"
-    },
-    "PRHN|251843|20260725|GOLD": {
-      "venue": "Prasads Multiplex: Hyderabad",
-      "time": "12:15 PM",
       "date": "20260725",
       "cat": "GOLD",
       "price": "295.00",
