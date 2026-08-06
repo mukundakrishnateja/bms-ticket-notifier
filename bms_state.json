@@ -22,7 +22,7 @@
       "date": "20260806",
       "cat": "PLATINUM",
       "price": "350.00",
-      "status": "0"
+      "status": "2"
     },
     "ALUC|3580|20260806|GOLD": {
       "venue": "ALLU Cinemas: Kokapet",
@@ -30,7 +30,7 @@
       "date": "20260806",
       "cat": "GOLD",
       "price": "295.00",
-      "status": "2"
+      "status": "3"
     },
     "PRHN|254179|20260806|EXECUTIVE": {
       "venue": "Prasads Multiplex: Hyderabad",
