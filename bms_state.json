@@ -1,21 +1,53 @@
 {
   "shows": {
-    "PRHN|255604|20260902|GOLD": {
+    "PRHN|255609|20260903|GOLD": {
       "venue": "Prasads Multiplex: Hyderabad",
-      "time": "10:15 PM",
-      "date": "20260902",
+      "time": "09:20 AM",
+      "date": "20260903",
+      "cat": "GOLD",
+      "price": "295.00",
+      "status": "3"
+    },
+    "PRHN|255610|20260903|GOLD": {
+      "venue": "Prasads Multiplex: Hyderabad",
+      "time": "12:45 PM",
+      "date": "20260903",
+      "cat": "GOLD",
+      "price": "295.00",
+      "status": "3"
+    },
+    "PRHN|255613|20260903|GOLD": {
+      "venue": "Prasads Multiplex: Hyderabad",
+      "time": "04:10 PM",
+      "date": "20260903",
+      "cat": "GOLD",
+      "price": "295.00",
+      "status": "3"
+    },
+    "PRHN|255611|20260903|GOLD": {
+      "venue": "Prasads Multiplex: Hyderabad",
+      "time": "07:35 PM",
+      "date": "20260903",
+      "cat": "GOLD",
+      "price": "295.00",
+      "status": "3"
+    },
+    "PRHN|255612|20260903|GOLD": {
+      "venue": "Prasads Multiplex: Hyderabad",
+      "time": "11:00 PM",
+      "date": "20260903",
       "cat": "GOLD",
       "price": "295.00",
       "status": "3"
     }
   },
   "dates": {
-    "20260902": "BOOKABLE",
-    "20260903": "AVAILABLE",
+    "20260903": "BOOKABLE",
     "20260904": "AVAILABLE",
     "20260905": "AVAILABLE",
     "20260906": "AVAILABLE",
     "20260907": "NOT_OPEN",
-    "20260908": "NOT_OPEN"
+    "20260908": "NOT_OPEN",
+    "20260909": "NOT_OPEN"
   }
 }
