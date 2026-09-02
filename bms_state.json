@@ -1,21 +1,5 @@
 {
   "shows": {
-    "PRHN|255602|20260902|GOLD": {
-      "venue": "Prasads Multiplex: Hyderabad",
-      "time": "03:15 PM",
-      "date": "20260902",
-      "cat": "GOLD",
-      "price": "295.00",
-      "status": "3"
-    },
-    "PRHN|255603|20260902|GOLD": {
-      "venue": "Prasads Multiplex: Hyderabad",
-      "time": "06:45 PM",
-      "date": "20260902",
-      "cat": "GOLD",
-      "price": "295.00",
-      "status": "3"
-    },
     "PRHN|255604|20260902|GOLD": {
       "venue": "Prasads Multiplex: Hyderabad",
       "time": "10:15 PM",
